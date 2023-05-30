@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Contact | PRAJVAL</title>
+    <title>Quiz | Geographica</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -71,13 +71,14 @@
         </nav>
     </header>
 
-    <div id="hero" class="hero overlay subpage-hero contact-hero">
+    <div id="hero" class="hero overlay subpage-hero portfolio-hero">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>Contact</h1>
+                <h1>Quiz</h1>
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active">Contact</li>
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="portfolio.html">Events</a></li>
+                  <li class="breadcrumb-item active">Quiz</li>
                 </ol>
             </div><!-- /.hero-text -->
         </div><!-- /.hero-content -->
@@ -85,69 +86,41 @@
 
     <main id="main" class="site-main">
 
-        <section class="site-section subpage-site-section section-contact-us">
+        <section class="site-section subpage-site-section section-project">
 
             <div class="container">
                 <div class="row">
-                    <!-- <div class="col-sm-7">
-                        <h2>Send a message</h2>
-                        <form>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                      <label for="name">Name:</label>
-                                      <input type="text" class="form-control" id="name">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                      <label for="email">E-mail:</label>
-                                      <input type="email" class="form-control" id="email">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                              <label for="message">Subject:</label>
-                              <input class="form-control" id="subject"></input>
-                            </div>
-                            <div class="form-group">
-                              <label for="message">Message:</label>
-                              <textarea class="form-control form-control-comment" id="message"></textarea>
-                            </div>
-                            <div class="text-center">
-                                <button class="btn btn-green">Contact us</button>
-                            </div>
-                        </form>
-                    </div> -->
-                    <div class="col-sm-5">
-                        <div class="contact-info">
-                            <h2>Contact information</h2>
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <h3>Address</h3>
-                                    <ul class="list-unstyled">
-                                        <li>SH648+9V7, August Kranti Marg</li>
-                                        <li>Siri Fort Institutional Area, Siri Fort</li>
-                                        <li>New Delhi, Delhi 110049</li>
-                                    </ul>
-                                    <h3>E-mail</h3>
-                                    <a href="mailto:activity_geographydept@knc.du.ac.in" target="_blank">activity_geographydept@knc.du.ac.in</a>
-                                    <h3>Phone</h3>
-                                    <a href="tel:+91 8700027153 ">Ms. Muskan (president) +91 8700027153  </a>
-                                    <br>
-                                    <a href="tel:+91 8920586792">Ms Drishti (Vice President) - +918920586792 </a>
-                                    
-                                </div>
-                            </div>
-                        </div><!-- /.contact-info -->
+                    <div class="col-md-8">
+                        <div class="project-img">
+                            <img style="width:fit-content;height: fit-content;"src="assets/img/Quiz.jpg" class="img-res" alt="">
+                        </div><!-- /.project-img -->
+
                     </div>
+                    <aside class="col-md-4">
+                        <div class="project-info">
+                            <h5>Quiz</h5>
+
+                            <p class="project-description">Participants will be provided with the topic 24 hours prior to the event. Participants will get 3 minutes of time to speak on their topic. Participation is only allowed in teams, each team consisting 2 members.</p>
+
+                            <div class="project-date-category">
+                                <p><span>Date:</span> 28th March 2023</p>
+                            </div><!-- /.project-cat -->
+
+                            <a style="width: 200px; "href="assets/DEBATE RULES.pdf" target="_blank" class="btn btn-gray">Click here for rules</a>
+                            <br>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScAIbN1Vn43y0YAZLfb7bniiX17iUZPHD_Iqt9s0BzBuaraEQ/viewform?usp=sf_link" class="btn btn-gray">Register Here</a>
+
+                            <div class="social-links">
+                                <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
+                                <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
+                            </div>
+                            
+                        </div>
+                    </aside>
                 </div>
             </div>
             
-        </section><!-- /.section-contact-us -->
-
-        <!-- <section id="map" class="section-map"></section> -->
-        <!-- <div id="googleMap" style="width:100%;height:400px;"></div>/.section-map -->
+        </section>
 
     </main><!-- /#main -->
 
@@ -202,7 +175,6 @@
 
 
 
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -212,20 +184,7 @@
     <script src="assets/js/jquery.slicknav.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
     <script src="assets/js/jquery.shuffle.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
     <script src="assets/js/script.js"></script>
-    <script>
-        function myMap() {
-        var mapProp= {
-          center:new google.maps.LatLng(51.508742,-0.120850),
-          zoom:5,
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        }
-        </script>
-        
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-        
   
 </body>
 </html>
